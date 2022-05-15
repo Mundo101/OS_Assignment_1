@@ -242,3 +242,5 @@ if __name__ == "__main__":
   elif(sys.argv[2] == 'RR'):
     print('• CPU Scheduling Alg: ', 'RR'+'('+(sys.argv[3])+')\n')
     RR(pres, int(sys.argv[3]))
+  else:
+    print('Invalid input try again')
